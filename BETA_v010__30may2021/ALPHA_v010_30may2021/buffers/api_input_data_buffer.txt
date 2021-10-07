@@ -1,0 +1,1 @@
+{"login": "server", "password": "0000", "command": "True", "server": "poll_server_PYModbus"}

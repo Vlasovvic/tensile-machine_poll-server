@@ -1,0 +1,25 @@
+{
+    "modbus_method": "rtu",
+    "modbus_port": "/dev/ttyUSB0",
+    "modbus_baudrate": 9600,
+    "modbus_timeout": 3,
+    "modbus_parity": "N",
+    "modbus_stopbits": 1,
+    "modbus_bytesize": 8,
+
+    "reuest_interval": 0.75,
+
+    "holding_registers_address": 70,
+    "holding_registers_count": 2,
+    "holding_registers_unit": 16,
+
+    "postgres_user": "testuser",
+    "postgres_password": "passwd_0ne",
+    "postgres_host": "192.168.5.71",
+    "postgres_port": "5432",
+    "postgres_database": "testdb",
+
+    "server_name": "poll_server_PYModbus",
+    "server_password": "0000",
+    "server_login": "server"
+}
